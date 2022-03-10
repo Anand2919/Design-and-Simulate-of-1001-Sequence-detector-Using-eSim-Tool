@@ -1,6 +1,7 @@
 # Design-and-Simulate-of-1001-Sequence-detector-Using-eSim-Tool
 - [Abstract](#abstract)
 - [Sequence 1001 detector](#Sequence-1001-detector)
+- [Circuit Diagram in eSim](#circuit-diagram-in-esim)
 - [State diagram of sequence 1001 diagram](#State-diagram-of-sequence1001-diagram)
 - [Software Used](#software-used)
     * [eSim](#esim)
@@ -22,6 +23,9 @@ Sequence detector is a part of digital circuit which takes bit strings as input 
 # Sequence 1001 detector
 
 In paper this post we are going to discuss the Verilog code of 1001 sequence detector. The sequence detector is of overlapping type. It means that the sequencer keep track of the previous sequences. Whenever the sequencer finds the incoming sequence matches with the 1001 sequence it gives the output 1. As Moore machine is used mostly in all practical designs the Verilog code for 1001 sequence detector fsm is written in Moore fsm logic.
+# Circuit Diagram in eSim
+![Capture_anand](https://user-images.githubusercontent.com/101328805/157681983-505ec60a-6663-4e83-8381-48cd4efaaad0.JPG)
+
 
 # State diagram of sequence 1001 diagram
 ![1001_moore-134x300](https://user-images.githubusercontent.com/101328805/157676738-1c78ed6c-d069-4c1b-a11f-a0eab1cd2db6.png)
